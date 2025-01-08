@@ -1,0 +1,33 @@
+name: dark_mode_ui
+description: A Flutter project with dark mode and icons.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0' # Adjust as needed
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  async: ^2.11.0
+  boolean_selector: ^2.1.1
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/ # For your image assets
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/icon.png"
+
